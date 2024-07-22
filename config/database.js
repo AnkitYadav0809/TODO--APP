@@ -7,15 +7,15 @@ const dbConnect = () =>
         useUnifiedTopology: true,
 
     })
-    .then(()=> console.log("DB connect success"));
-    .catch((error)=>{
+    .then(()=> console.log("DB connect success"))
+    .catch( (error)=>{
         console.log("issue in db");
         console.error(error.message);
         process.exit(1);
 
 
 
- });  
+ } );  
 
 }
 module.exports = dbConnect;
