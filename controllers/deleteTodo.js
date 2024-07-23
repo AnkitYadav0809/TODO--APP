@@ -1,4 +1,4 @@
-//import  model
+
 const Todo = require("../models/Todo");
 
 exports.deleteTodo = async (req, res) => {
